@@ -122,6 +122,14 @@ span {
 .love-title {
     margin-left: 100px;
 }
+.love-title h3::before{
+    content: "";
+    height: 80px;
+    width: 4px;
+    background: chocolate;
+    float: left;
+    margin-right: 10px;
+}
 
 .love-sub-title {
     margin-left: 20px;
